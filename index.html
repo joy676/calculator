@@ -3,34 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
         <title>calculator</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="responsive/responsive.css">
     </head>
         <body>
-            <div>
-                <!-- box -->
-                <div class="box"></div>
+            <!-- box -->
+            <div class="box">
+                <!-- text -->
+                <section class="text">
+                    <h1>calculator</h1>
+                </section>
                 <!-- calculate part --> 
                 <form class="calculator">
                     <input class="first" type="number" id="first" placeholder="first number"> <br> <br>
                     <input class="first" type="number" id="second" placeholder="second number"> <br> <br>
-                    <button type="button" class="button" onclick="calculate_sum()">=</button><br>
-                    <input class="answer" type="text" id="result">
+                    <button type="button" class="button" onclick="calculate_sum()">=</button>
                     <button type="reset" class="btn">reset</button>
-                </form>
-                <!-- option -->
-                <section >
                     <select class="option" id="option">
                         <option value="plus">+</option>
                         <option value="minus">-</option>
                         <option value="gon">×</option>
                         <option value="vhag">÷</option>
                     </select>
-                </section>
-                <!-- text -->
-                <section class="text">
-                    <h1>calculator</h1>
-                </section>
+                    <br><br>
+                    <input class="answer" type="text" id="result">
+                </form>
+                <p>design by: maksudur rahman joy</p>
             </div>
 
             <script src="javascript/script.js"></script>

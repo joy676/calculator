@@ -1,0 +1,72 @@
+@media only screen and (max-width: 375px){
+    .box {
+        width: 352px;
+        height: 455px;
+        background-color: #2c3e50;
+        position: relative;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    }
+    /* text part */
+    .text {
+        color: white;
+        text-transform: full-width;
+        font-size: 20px;
+        position: absolute;
+        left: 33px;
+    }
+    /* calculate part */
+    .calculator {
+        position: absolute;
+        left: 6px;
+        bottom: 9px;
+        margin: auto;
+    }
+    .first {
+        width: 332px;
+        height: 40px;
+    }
+    .answer {
+        width: 334px;
+        height: 160px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .option{
+        cursor: pointer;
+        width: 45px;
+        height: 28px;
+        border: groove;
+    }
+    .button{
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+    }
+    button:hover{
+        box-shadow: 0 0 6px rgb(192, 57, 43);
+    }
+    .btn{
+        cursor: pointer;
+        width: 56px;
+        height: 31px;
+        border: groove;
+        float: inline-end;
+    }
+    p {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        text-transform: capitalize;
+        font-size: 12px;
+        color: blue;
+    }
+}
